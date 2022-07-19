@@ -1,0 +1,93 @@
+*{
+  box-sizing: border-box;
+}
+
+
+.container{
+  background-color: #eee;
+}
+
+header > p{
+ text-align: center;
+}
+
+header {
+  padding: 15px;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  text-align: center;
+}
+
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  padding: 10px 50px;
+  width: 90vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-content:center;
+}
+
+.image > img {
+  align-self: center;
+}
+
+.image > p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ 
+section.dates {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.dates > ul {
+  width: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section.dates > ul > li {
+  padding: 10px;
+}
+
+section.dates > cite {
+  width: 50%;
+}
+
+footer > p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder; 
+  font-size: 18 px;
+  padding: 20px 0px 30px 0px;
+}
+
+@media (max-width: 576px) { 
+  .image > img {
+   width: 90vw;
+  }
+  .container{
+    background-color: #eee;
+
+  }
+  section.dates > ul {
+    width: 80%;
+  }
+ }
